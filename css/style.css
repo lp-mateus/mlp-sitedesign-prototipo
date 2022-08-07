@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5rem;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem;
+    color: whitesmoke;
+    line-height: 2rem;
+}
+
+h3{
+    font-weight: bolder;  
+    color: red;
+    font-size: 1em;
+
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+a:hover{
+    background-color: grey;
+}
+
+nav{
+    position: fixed;
+    right: 0;
+    z-index: 999;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;    
+}
+
+/*
+.bg-image{
+    position: absolute;
+    background: url('../images/main-container.jpg');
+    background-color: rgb(45, 45, 45);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+*/
+
+.logo{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bolder;   
+}
+
+.section-tittle{
+    /* BG */
+    background: url(../images/stack-of-money.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* FONTE */
+    font-weight: bolder;  
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.section-content{
+    font-weight: bolder;  
+    color: black;
+    line-height: 1em;
+}
+
+.resize{
+    width: 100%;
+    object-fit: cover;
+    height: 15em;
+}
+
+
+
