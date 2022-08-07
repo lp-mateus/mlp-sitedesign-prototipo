@@ -4,10 +4,39 @@ body{
     padding: 0;
 }
 
+form{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    line-height: 2em;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    position: absolute;
+    right: 10em;
+    background-color: rgb(255, 0, 0);
+    width: 10em;
+    text-align: center;
+    border-radius: 2em;
+    border-width: 0;
+}
+
+button:hover{
+    background-color: grey;
+}
+    
 h1{
     font-size: 2rem;
     color: whitesmoke;
     line-height: 2rem;
+}
+
+h2{
+    line-height: 0;
 }
 
 h3{

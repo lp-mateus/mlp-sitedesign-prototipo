@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Design site by Mateus Leite Pedrosa">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Mateus Leite Pedrosa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Formulários</h2>
+        <hr></hr>
+        <section>
+            <form id="form-cadastro" action="" method="POST">
+                <label>Nome</label>
+                <input name="nome" type="text" autocomplete="name" placeholder="Insira seu nome completo...">
+                <br>
+                <label>CPF</label>
+                <input name="cpf" type="number" placeholder="Insria seu CPF...">
+                <br>
+                <label>E-mail</label>
+                <input name="email" type="email" required autocomplete="email" placeholder="fulano@email.com">
+                <br>
+                <label>Data</label>
+                <input name="date" type="date" required>
+                <br>
+                <label>Senha</label>
+                <input 
+                    name="senha"
+                    required
+                    type="password" 
+                    minlength="8"
+                    maxlength="12"
+                    autocomplete="on"
+                    placeholder="Insria uma senha..."
+                >
+                <br>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </body>
+</html>
